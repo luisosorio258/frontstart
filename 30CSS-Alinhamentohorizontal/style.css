@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, button, input, select, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+:root {
+
+}
+
+.container {
+    background: rgb(230, 203, 230);
+    height: 600px;
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    background: grey;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/*
+default
+
+display: flex
+flex-direction: row
+justify-content: alinhamento orizontal
+align-items: alinhamento vertical
+
+display: flex
+flex-direction: column
+justify-content: alinhamento vertical
+align-items: alinhamento orizontal
+
+opcoes
+
+center -> alinha ao centro
+space-around -> espaço entre (um pouco de cada lado)
+space-between -> espaço somente entre os elementos
+space-evenly -> espaço igual em todos os lados
+flex-start -> alinha no inicio
+flex-end -> alinhna no fim
+
+*/
