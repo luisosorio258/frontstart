@@ -147,6 +147,44 @@ nav ul a svg {
     color: var(--green);
 }
 
+.services {
+    text-align: center;
+    margin: 150px 0;
+    padding: 0 100px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 60px auto 0;
+}
+
+.services .services-container .service-card {
+    max-width: 360px;
+    background: #2f3034;
+    border: 1px solid var(--purple);
+    border-radius: 16px;
+    padding: 40px 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.services .services-container .service-card svg {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 40px;
+    color: var(--green);
+}
+
+.service-card + .service-card {
+    margin-left: 10px;
+}
+
 
 
 /* RESPONSIVIDADE */
